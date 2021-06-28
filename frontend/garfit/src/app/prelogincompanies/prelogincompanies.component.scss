@@ -1,0 +1,53 @@
+@import 'src/_var.scss';
+.bg-blue {
+  background-color: $color-strong-blue;
+  padding: 1vh;
+}
+.bg-gray {
+  background-color: $color-strong-gray;
+ }
+
+.btn-new-light-gray {
+  background-color: #C7C6C6;
+  color:$color-opacity-blue;
+  font-weight: bolder;
+  i{
+    color:$color-orange;
+
+
+  }
+}
+
+iframe{
+  width: 70%;
+  height: 55vh;
+  margin:0 auto;
+  display: flex;
+
+}
+.text-bigger {
+  font-size: 30px;
+  height: 3vh;
+  color:$color-white;
+}
+/*div {
+  .social {
+    img {
+      margin: 0 70px;
+    }
+  }
+}*/
+
+.bi.bi-arrow-right-circle-fill.color {
+  color:$color-orange;
+
+}
+
+@media (max-width: 989px) {
+  .btn-new-light-gray {
+    margin: 2vh;
+  }
+  iframe {
+    width: 100%;
+  }
+}

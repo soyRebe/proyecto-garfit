@@ -1,0 +1,60 @@
+@import 'src/_var.scss';
+
+.bg-light-orange {
+  background-color: $color-light-orange;
+}
+.text-orange {
+  color:$color-orange;
+}
+.text-logo {
+  letter-spacing: 0.3em;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-gray-two {
+  color:$color-strong-gray-two;
+}
+
+.text-orange-strong {
+  color:$color-strong-orange;
+}
+
+.height-scroll {
+  min-height: 100vh;
+}
+.height-scroll-row {
+  min-height: 80vh;
+}
+h1{
+  font-size: 5em;
+}
+
+.line-orange {
+  /*width: 50%;*/
+  height: 0.5vh;
+  opacity: 1!important;
+}
+
+@media (max-width: 989px) {
+ .media-content {
+   width:100%!important;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+ }
+
+  h1{
+    text-align: center;
+    font-size: 2.5em;
+  }
+  .line-orange{
+    text-align: center;
+    width: 50%!important;
+    display: block;
+    margin: 0 auto;
+  }
+  .media-content-img{
+    height: 200px;
+  }
+}

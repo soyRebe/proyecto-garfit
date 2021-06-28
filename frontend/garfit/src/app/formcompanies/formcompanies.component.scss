@@ -1,0 +1,33 @@
+@import 'src/_var.scss';
+
+.text-orange {
+  color:$color-orange;
+}
+
+.bg-opacity-strong-blue {
+  background-color: $color-opacity-strong-blue;
+}
+.elevation-border {
+  background-clip: border-box;
+  border: 1px solid #F4F4F4;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+
+}
+input {
+  background-color: $color-aqua;
+}
+.text-logo {
+  letter-spacing: 0.3em;
+}
+.text-bold {
+  font-weight: bold;
+}
+
+@media (max-width: 989px) {
+  .btn-new-light-gray {
+    margin: 2vh;
+  }
+  iframe {
+    width: 100%;
+  }
+}

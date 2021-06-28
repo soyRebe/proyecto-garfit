@@ -1,0 +1,42 @@
+@import 'src/_var.scss';
+
+
+
+.bg-light-gray {
+    background-color:$color-light-gray;
+    height: auto;
+
+    h1 {
+        text-transform: uppercase;
+        color:white;
+        font-size:26px;
+    }
+
+    .text-logo {
+        letter-spacing: 0.3em;
+    }
+}
+ul {
+  li {
+    a{
+      color:#000000;
+      font-weight: bold;
+      margin-top: 4px;
+      font-size: .6em;
+    }
+  }
+}
+
+@media (max-width: 989px) {
+  ul {
+    li {
+      a{
+        color:#000000;
+        font-weight: bold;
+        margin: 4px;
+        font-size: .8em;
+      }
+    }
+  }
+
+  }
